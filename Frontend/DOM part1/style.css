@@ -1,0 +1,41 @@
+#square {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+}
+
+#square-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.red-square {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  margin: 1px;
+}
+
+#rabbit-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rabbit {
+  font-size: 40px;
+}
+
+.rabbit:hover {
+  visibility: hidden;
+}
+
+#black {
+  font-size: 100px;
+  background-color: black;
+  color: red;
+}
+
+#bomb {
+  background-color: red;
+  margin: 8px;
+}

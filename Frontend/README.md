@@ -8,3 +8,4 @@
   - setInterval vs setTimeout
 - DOM part2
   - Event listeners
+- Array

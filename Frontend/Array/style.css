@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+button:hover {
+  background-color: aquamarine;
+  border-radius: 5px;
+}
+
+.function {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+  visibility: hidden;
+}
+.result {
+  font-size: 30px;
+}
+
+.heart-container {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  margin: 0 10%;
+  justify-content: center;
+}

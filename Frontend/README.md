@@ -9,3 +9,8 @@
 - DOM part2
   - Event listeners
 - Array
+- Object
+  - Iterate object using for...in loop
+  - Object.keys()
+  - Object.values()
+  - Object.entries()

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Milkman</title>
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Victor+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/ca77964522.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="app-container">
+      <h1>Milkman</h1>
+      <div class="first-part">
+        <button class="cow"></button>
+        <div class="milk-container">
+          <div class="bottle">
+            <i class="fa-solid fa-bottle-droplet"></i>
+            <span id="bottle-num">0</span>
+          </div>
+          <button id="sell"></button>
+        </div>
+      </div>
+      <div class="second-part">
+        <div class="title">Money in your bank</div>
+        <div class="money-container">
+          <i class="fa-solid fa-money-bill-1-wave"></i>
+          <span id="money">$0.00</span>
+        </div>
+      </div>
+      <div class="third-part">
+        <div class="title">Options to buy</div>
+        <p>
+          (You need to have at least $25.00 in your bank to see options of
+          producer)
+        </p>
+        <div class="producers-choice"></div>
+      </div>
+      <div class="forth-part">
+        <div class="title">Your Assets</div>
+        <div class="each-producer"></div>
+      </div>
+    </div>
+  </body>
+</html>

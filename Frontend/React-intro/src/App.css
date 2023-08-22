@@ -1,0 +1,52 @@
+.blue-box {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+}
+
+.monkey {
+  width: 300px;
+}
+
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.red-box {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  margin: 1px;
+}
+
+.ghost-container {
+  font-size: 100px;
+}
+
+.ghost {
+  visibility: visible;
+}
+
+.no-ghost {
+  visibility: hidden;
+}
+
+.rabbit-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rabbit {
+  font-size: 40px;
+}
+
+.rabbit:hover {
+  visibility: hidden;
+}
+
+.black-part {
+  font-size: 100px;
+  background-color: black;
+  color: red;
+}

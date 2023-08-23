@@ -1,0 +1,40 @@
+.blue {
+  background-color: blue;
+}
+
+.box {
+  border: 2px solid #000000;
+  width: 100px;
+  height: 100px;
+}
+
+.text {
+  margin: 15px 0;
+}
+
+#number {
+  margin: 0 5px;
+}
+
+#car {
+  outline: none;
+  font-size: 100px;
+  margin-top: -50px;
+}
+
+#watch {
+  font-size: 50px;
+  color: green;
+}
+
+#number-seconds {
+  margin-right: 13px;
+}
+
+button {
+  cursor: pointer;
+}
+
+#stop {
+  margin: 0 5px;
+}

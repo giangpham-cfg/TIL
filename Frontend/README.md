@@ -65,4 +65,5 @@
 ### React event liteners
 
 - useState
-- Event listeners: onClick, onChange, onSubmit, onKeyDown... -[Challenge for practice](https://react-event-listeners.netlify.app/)
+- Event listeners: onClick, onChange, onSubmit, onKeyDown...
+- [Challenge for practice](https://react-event-listeners.netlify.app/)

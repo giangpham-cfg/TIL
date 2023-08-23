@@ -61,3 +61,8 @@
       - The files that end in JSX, we can think of as their own module (one module knows nothing about anyone else, they are their own kingdom)
       - The only way they can share info is by explicitly importing and exporting what we want to share
 - [Challenge for practice](https://react-introduction-giang.netlify.app/)
+
+### React event liteners
+
+- useState
+- Event listeners: onClick, onChange, onSubmit, onKeyDown... -[Challenge for practice](https://react-event-listeners.netlify.app/)

@@ -1,0 +1,13 @@
+td,
+th {
+  border: 1px solid black;
+}
+
+th {
+  background-color: gray;
+  color: white;
+}
+
+.select {
+  margin-bottom: 20px;
+}

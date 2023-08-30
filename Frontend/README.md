@@ -15,7 +15,6 @@
 
 ### Array
 
-- Contents to learn:
 - What are arrays? A list of values all stored in one variable.Values associated with each other in a group
 - [Challenge for practice](https://array-functional-game.netlify.app/)
 
@@ -67,3 +66,15 @@
 - useState
 - Event listeners: onClick, onChange, onSubmit, onKeyDown...
 - [Challenge for practice](https://react-event-listeners.netlify.app/)
+
+### Fetch API
+
+- Contents to learn:
+  ![Explaination](./Assets/images/api-explain.png)
+- Promise?
+- Object - an agreement that will eventually get a value back
+- Server requests take long
+- we don't want our application to freeze as we are waiting
+- so the browser will do the work then get back to us when it's done with the info we want
+- RESTful API: CRUD with methods including POST, GET, PUT, DELETE
+- [Challenge for practice](https://fetch-api-practice.netlify.app/)

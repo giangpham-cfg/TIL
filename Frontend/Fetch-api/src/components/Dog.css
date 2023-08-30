@@ -1,0 +1,11 @@
+.dog {
+  width: 100px;
+}
+
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: end;
+  margin-bottom: 20px;
+}

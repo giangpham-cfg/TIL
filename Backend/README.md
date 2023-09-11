@@ -16,10 +16,10 @@
 
 - Prisma is a server-side library that helps developers read and write data to the database in an intuitive, efficient and safe way (ORM - Object relational mapping)
 - How do we use Prisma?
-- npm i prisma
-- npx prisma init
-- We have to change provider to database we used
-- Once we have our schema, how do we tell db what the table in the db looks like: npx prisma migrate dev
+  - npm i prisma
+  - npx prisma init
+  - We have to change provider to database we used
+  - Once we have our schema, how do we tell db what the table in the db looks like: npx prisma migrate dev
 
 ## CORS
 

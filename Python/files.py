@@ -1,0 +1,51 @@
+# r = Read
+# a = Append
+# w = Write
+# x = Create
+
+# Read - error if it doesn't exist
+
+f = open("names.txt")
+# print(f.read())
+# print(f.read(4))
+
+# print(f.readline())
+# print(f.readline())
+
+for line in f:
+    print(line)
+
+f.close()
+
+try:
+    f = open("names.txt")
+    print(f.read())
+except:
+    print("The file you want to read doesn't exist")
+finally:
+    f.close()
+
+# Append - creates the file if it doesn't exist
+f = open("names.txt", "a")
+f.write("Neil\n")
+f.close()
+
+f = open("names.txt")
+print(f.read())
+f.close()
+
+# Write (overwrite)
+f = open("context.txt", "w")
+f.write("I deleted all of the context")
+f.close()
+
+f = open("context.txt")
+print(f.read())
+f.close()
+
+# Two ways to create a new file
+
+# Opens a file for writing, creates the file if it does not exist
+f = open("name_list.txt", "w")
+f.close()
+
